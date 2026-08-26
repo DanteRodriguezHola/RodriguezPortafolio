@@ -1,0 +1,21 @@
+@font-face {
+    font-family: ArimoRegular;
+    src: url(fonts/Arimo-Regular.ttf);
+}
+
+@font-face {
+    font-family: ArimoBold;
+    src: url(fonts/Arimo-Bold.ttf);
+}
+
+#welcome {
+    font-family: ArimoBold;
+    font-size: 800%;
+    color: black;
+}
+
+#aboutMe {
+    font-family: ArimoRegular;
+    font-size: 200%;
+    color: black;
+}
