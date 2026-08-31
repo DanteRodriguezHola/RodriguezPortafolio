@@ -8,6 +8,38 @@
     src: url(fonts/Arimo-Bold.ttf);
 }
 
+@font-face {
+    font-family: Marbella-Army;
+    src: url(fonts/Marbella-Army.otf);
+}
+
+@font-face {
+    font-family: Kasane-Teko;
+    src: url(fonts/Teko-VariableFont_wght.ttf);
+}
+
+#StrayTowerDefense {
+    font-family: Marbella-Army;
+    font-size: 300%;
+    color: red;
+    text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000; 
+}
+
+#Rogilla {
+    font-family: Kasane-Teko;
+    font-size: 300%;
+    color: #616161;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #9b9b9b,
+    -1px 1px 0 #9b9b9b,
+    1px 1px 0 #000000; 
+}
+
 #welcome {
     font-family: ArimoBold;
     font-size: 800%;
