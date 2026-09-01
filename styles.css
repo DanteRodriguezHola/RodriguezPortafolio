@@ -1,26 +1,35 @@
 @font-face {
-    font-family: ArimoRegular;
+    font-family: Arimo-Regular;
     src: url(fonts/Arimo-Regular.ttf);
 }
 
 @font-face {
-    font-family: ArimoBold;
+    font-family: Arimo-Bold;
     src: url(fonts/Arimo-Bold.ttf);
 }
 
 @font-face {
-    font-family: Marbella-Army;
+    font-family: MarbellaArmy;
     src: url(fonts/Marbella-Army.otf);
 }
 
 @font-face {
-    font-family: Kasane-Teko;
+    font-family: KasaneTeko;
     src: url(fonts/Teko-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: ComicRelief-Bold;
+    src: url(fonts/ComicRelief-Bold.ttf);
+}
+
+@font-face {
+    font-family: PaletteMosaic-Regular;
+    src: url(fonts/PaletteMosaic-Regular.ttf);
+}
+
 #StrayTowerDefense {
-    font-family: Marbella-Army;
-    font-size: 300%;
+    font-family: MarbellaArmy;
     color: red;
     text-shadow:
     -1px -1px 0 #000000,
@@ -30,24 +39,59 @@
 }
 
 #Rogilla {
-    font-family: Kasane-Teko;
-    font-size: 300%;
+    font-family: KasaneTeko;
     color: #616161;
     text-shadow:
     -1px -1px 0 #ffffff,
     1px -1px 0 #9b9b9b,
     -1px 1px 0 #9b9b9b,
-    1px 1px 0 #000000; 
+    1px 1px 0 #00000000; 
+}
+
+#contactMe {
+    font-family: ComicRelief-Bold;
+    color: #0099ff;
+}
+
+.simpleInput {
+    height: 40px;
+    width: 50%;
+}
+
+#socialMedia {
+    font-family: PaletteMosaic-Regular;
+    color: #FD9F00;
+    text-shadow:
+    -1px -1px 0 #FDDE00,
+    1px -1px 0 #FC6200,
+    -1px 1px 0 #802600,
+    1px 1px 0 #802600; 
+}
+
+.socialLinks {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 400%;
+}
+
+h3 {
+    font-size: 300%;
 }
 
 #welcome {
-    font-family: ArimoBold;
+    font-family: Arimo-Bold;
     font-size: 800%;
     color: black;
 }
 
 #aboutMe {
-    font-family: ArimoRegular;
+    font-family: Arimo-Regular;
     font-size: 200%;
     color: black;
 }
+
