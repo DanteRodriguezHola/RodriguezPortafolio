@@ -29,20 +29,15 @@
 }
 
 root {
-    --background-color: #ffffff;
+    --primary-color: #ffffff;
+    --secondary-color: #d3d3d3;
     --text-color: #000000;
 }
 
-dark_mode {
-    --background-color: #000000;
+modo_oscuro {
+    --primary-color: #000000;
+    --secondary-color: #3f3f3f; 
     --text-color: #ffffff;
-}
-
-body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    padding: 12px;
-    margin: 12px;
 }
 
 h1 {
@@ -69,7 +64,15 @@ p, ul, li {
     padding: 12px;
 }
 
-.icon {
+.sectionPrimary {
+    background-color: var(--primary-color);
+}
+
+.sectionSecondary {
+    background-color: var(--secondary-color);
+}
+
+.icono {
     width: 42px;
     height: 42px;
 }
@@ -91,13 +94,13 @@ p, ul, li {
     width: 50%;
 }
 
-#welcome {
-    font: Arimo-Bold;
+#bienvenido {
+    font-family: Arimo-Bold;
     color: var(--text-color);
 }
-#aboutMe {
+
+#sobreMi {
     font-family: Arimo-Regular;
-    font-size: 200%;
     color: black;
 }
 
@@ -125,12 +128,12 @@ p, ul, li {
     1px 1px 0 #00000000; 
 }
 
-#contactMe {
+#contactame {
     font-family: ComicRelief-Bold;
     color: #0099ff;
 }
 
-#socialMedia {
+#redes {
     font-family: PaletteMosaic-Regular;
     color: #FD9F00;
     text-shadow:

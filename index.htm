@@ -16,18 +16,18 @@
 <div class = "container-fluid">
 
     <!-- Bienvenida -->
-    <header>
+    <header class = "sectionPrimary">
     <div class = "row">
 
         <div class = "col-12 text-center">
 
-            <h1 id = "welcome"> bienvenido </h1>
+            <div class = "text-center">
 
-            <div>
-
-                <img class = "img-fluid" src = "images/welcome.png" alt = "Ops...">
+                <img class = "img-fluid" src = "images/bienvenido.png" alt = "Ops...">
 
             </div>
+
+            <h1 class = "text-wrap" = "welcome"> bienvenido </h1>
 
         </div>
 
@@ -36,7 +36,7 @@
     <!-- Bienvenida -->
 
     <!-- Sobre mí -->
-    <section>
+    <section class = "sectionSecondary">
     <div class = "row">
 
         <div class = "col-6 text-center">
@@ -64,30 +64,29 @@
 
             <div class = "skillBox">
 
-                <img class = "icon" src = "images/icons/binary.svg" alt = "•">
+                <img class = "icono" src = "images/icons/binary.svg" alt = "">
                 <p> Diseño de algoritmos </p>
 
-                <img class = "icon" src = "images/icons/mouse.svg" alt = "•">
+                <img class = "icono" src = "images/icons/mouse.svg" alt = "">
                 <p> Desarollo web </p>
 
             </div>
 
             <div class = "skillBox">
 
-                <img class = "icon" src = "images/icons/database.svg" alt = "•">
+                <img class = "icono" src = "images/icons/database.svg" alt = "">
                 <p> Base de datos </p>
 
-                <img class = "icon" src = "images/icons/brush.svg" alt = "•">
+                <img class = "icono" src = "images/icons/brush.svg" alt = "">
                 <p> Diseño de arte digital </p>
 
             </div>
 
         </div>
-
         <!-- Skills -->
 
         <!-- Foto -->
-        <div class = "col-6">
+        <div class = "col-6 text-center">
 
             <img class = "img-fluid" src = "images/rodriguez_dante.png" alt = "¡Soy yo!">
 
@@ -116,18 +115,22 @@
 
             <img class = "logo" src = "images/logos/visual_studio_code.svg" alt = "Visual Studio Code">
 
+            <img class = "logo" src = "images/logos/github.svg" alt = "GitHub">
+
+            <img class = "logo" src = "images/logos/gitbash.svg" alt = "GitBash">
+
             <img class = "logo" src = "images/logos/photopea.svg" alt = "Photopea">
 
             <img class = "logo" src = "images/logos/canva.svg" alt = "Canva">
 
             </div>
 
-            <p class = "text-wrap "id = "cv"> 
+            <p class = "text-wrap" id = "cv"> 
             ¿Deseas conocer más sobre mí? <br>
             Haz click en este botón y 
             </p>
             
-            <a href = "files/CV.pdf"
+            <a href = "files/Rodriguez Dante CV.pdf"
             class = "btn btn-success btn-lg"
             role = "button"
             target = "_blank"
@@ -141,7 +144,7 @@
     <!-- Sobre mí -->
 
     <!-- Proyectos -->
-    <section>
+    <section class = "sectionPrimary">
     <div class = "row">
 
         <!-- Encabezado-->
@@ -150,18 +153,18 @@
             <h2> proyectos </h2>
 
         </div>
-            <!-- Encabezado -->
+        <!-- Encabezado -->
 
-            <!-- Stray Tower Defense -->
+        <!-- Stray Tower Defense -->
 
-                <!-- Descripción -->
+            <!-- Descripción -->
             <div class = "col-6 text-center">
 
                 <h3 id = "StrayTowerDefense"> STRAY TOWER DEFENSE </h3>
 
                 <p class = "text-wrap"> 
                 Un videojuego Tower Defense que mi compañera Lucía y yo 
-                desarrollamos como proyecto final de 3ro. ¡Enfréntate y derrota a los zombis
+                desarrollamos como proyecto final de 3ro. ¡Enfréntate y derrotá a los zombis
                 utilizando tus torretas en este divertido juego de estrategia!
                 </p>
 
@@ -182,7 +185,7 @@
             </div>
             <!-- Imágen -->
 
-            <!-- Stray Tower Defense -->
+        <!-- Stray Tower Defense -->
 
         <!-- Rogilla -->
 
@@ -221,25 +224,25 @@
     <!-- Proyectos -->
 
     <!-- Contacto y redes -->
-    <footer>
+    <footer class = "sectionSecondary">
     <div class = "row">
 
         <!-- Contacto -->
         <div class = "col-6 text-center">
 
-            <h2 id = "contactMe"> CONTÁCTAME </h2> 
+            <h2 id = "contactame"> CONTÁCTAME </h2> 
 
             <form>
-                <label for = "name"> Tu nombre </label> <br>
-                <input type = "text" placeholder = "Escribí acá tu nombre completo" id = "name" class = "simpleInput"> <br> <br>
+                <label for = "name"> Tu nombre </label>
+                <input type = "text" placeholder = "Escribí acá tu nombre completo" id = "name" class = "simpleInput">
 
-                <label for = "email"> Tu correo electrónico </label> <br>
-                <input type = "text" placeholder = "Escribí acá tu correo electrónico" cols = "60" id = "email" class = "simpleInput"> <br> <br>
+                <label for = "email"> Tu correo electrónico </label>
+                <input type = "text" placeholder = "Escribí acá tu correo electrónico" id = "email" class = "simpleInput">
 
-                <label for = "idea"> Tu idea </label> <br>
-                <textarea type = "text" placeholder = "Describí acá tu idea" cols = "60" rows = "10" id = "idea"> </textarea> <br> <br>
+                <label for = "idea"> Tu idea </label>
+                <textarea placeholder = "Describí acá tu idea" cols = "60" rows = "10" id = "idea"> </textarea>
 
-                <input type = "submit" class = "btn btn-success btn-lg"> <br> <br>
+                <input type = "submit" class = "btn btn-success btn-lg">
             </form>
 
         </div>
@@ -248,7 +251,7 @@
         <!-- Redes -->
         <div class = "col-6 text-center">
 
-            <h2 id = "socialMedia"> REDES </h2> 
+            <h2 id = "redes"> REDES </h2> 
 
             <p> Redes profesionales <p>
 
