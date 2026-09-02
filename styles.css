@@ -40,24 +40,33 @@ dark_mode {
 
 body {
     background-color: var(--background-color);
-    color: var(--text-color)
+    color: var(--text-color);
+    padding: 12px;
+    margin: 12px;
 }
 
 h1 {
     font-size: 1000%;
+    padding-bottom: 12px;
 }
 
 h2 {
     font-size: 550%;
+    padding-bottom: 12px;
 }
 
 h3 {
     font-size: 425%;
+    padding-bottom: 12px;
 }
 
 p, ul, li {
     font-family: Arimo-Regular;
     font-size: 23px;
+}
+
+.row {
+    padding: 12px;
 }
 
 .icon {
@@ -73,6 +82,7 @@ p, ul, li {
 .skillBox, .logoBox {
     display: flex;
     justify-content: center;
+    padding-bottom: 12px;
     gap: 10px;
 }
 
@@ -84,6 +94,15 @@ p, ul, li {
 #welcome {
     font: Arimo-Bold;
     color: var(--text-color);
+}
+#aboutMe {
+    font-family: Arimo-Regular;
+    font-size: 200%;
+    color: black;
+}
+
+#cv {
+    font-size: 15px;
 }
 
 #StrayTowerDefense {
@@ -119,11 +138,5 @@ p, ul, li {
     1px -1px 0 #FC6200,
     -1px 1px 0 #802600,
     1px 1px 0 #802600; 
-}
-
-#aboutMe {
-    font-family: Arimo-Regular;
-    font-size: 200%;
-    color: black;
 }
 
