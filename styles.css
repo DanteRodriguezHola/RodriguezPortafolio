@@ -28,17 +28,62 @@
     src: url(fonts/PaletteMosaic-Regular.ttf);
 }
 
-#welcome {
-    font: Arimo-Bold;
-    color: #000000;
+root {
+    --background-color: #ffffff;
+    --text-color: #000000;
 }
 
-#welcomeImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1280px;
-    height: 720px;
+dark_mode {
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color)
+}
+
+h1 {
+    font-size: 1000%;
+}
+
+h2 {
+    font-size: 550%;
+}
+
+h3 {
+    font-size: 425%;
+}
+
+p, ul, li {
+    font-family: Arimo-Regular;
+    font-size: 23px;
+}
+
+.icon {
+    width: 42px;
+    height: 42px;
+}
+
+.logo {
+    width: 58px;
+    height: 58px;
+}
+
+.skillBox, .logoBox {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.simpleInput {
+    height: 40px;
+    width: 50%;
+}
+
+#welcome {
+    font: Arimo-Bold;
+    color: var(--text-color);
 }
 
 #StrayTowerDefense {
@@ -76,41 +121,9 @@
     1px 1px 0 #802600; 
 }
 
-h1 {
-    font-size: 1000%;
-}
-
-h2 {
-    font-size: 550%;
-}
-
-h3 {
-    font-size: 425%;
-}
-
-p, ul, li {
-    font-family: Arimo-Regular;
-    font-size: 135%;
-}
-
 #aboutMe {
     font-family: Arimo-Regular;
     font-size: 200%;
     color: black;
 }
 
-.logo {
-    width: 58px;
-    height: 58px;
-}
-
-.logoBox {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.simpleInput {
-    height: 40px;
-    width: 50%;
-}
