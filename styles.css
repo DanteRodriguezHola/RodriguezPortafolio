@@ -28,9 +28,9 @@
     src: url(fonts/PaletteMosaic-Regular.ttf);
 }
 
-root {
+:root {
     --primary-color: #ffffff;
-    --secondary-color: #d3d3d3;
+    --secondary-color: #dadada;
     --text-color: #000000;
 }
 
@@ -38,6 +38,12 @@ modo_oscuro {
     --primary-color: #000000;
     --secondary-color: #3f3f3f; 
     --text-color: #ffffff;
+}
+
+body, html {
+    height: 100%;
+    padding: 12px;
+    margin: 12px;
 }
 
 h1 {
